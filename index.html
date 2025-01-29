@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Text-utils</title>
+</head>
+<body>
+  <!--Header-->
+  <header>
+    <h1>Text Utils</h1>
+    <button id="theme"><i class="fa-solid fa-toggle-off"></i></button>
+  </header>
+
+<!--Main-->
+<div class="container">
+  <h2>Enter the Text to Analyze</h2>
+  <div class="wrapper">
+<input type="text" placeholder="Enter the Text...">
+<div class="btncont">
+  <button>UpperCase</button>
+  <button>LowerCase</button>
+  <button>Reverse</button>
+  <button>Copy</button>
+  <button>Reset</button>
+</div>
+  </div>
+
+<div class="count">
+  <h4>Your Text Summary</h4>
+  <p><span id="wrd">0</span> Words, <span id="ch">0</span> Characters</p>
+</div>
+
+  <div class="preview">
+    <h2>Preview</h2>
+    <div class="prvdiv">
+<p id="prvpara"></p>
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+<footer>
+  <h3>Made with &#128151; by Nilesh</h3>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
